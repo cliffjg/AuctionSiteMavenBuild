@@ -3,14 +3,14 @@ Create a "credentials.properties" file and place below into resources folder loc
 <br>
 <br>
 #Local Database
-DATABASE_CONNECTION=jdbc:mysql://localhost:(port 4 digit number without parentheses)/(enter you database name without parentheses)
+<br>DATABASE_CONNECTION=jdbc:mysql://localhost:(port 4 digit number without parentheses)/(enter you database name without parentheses)
 <br>DATABASE_USERNAME=(enter your database username without parentheses)
 <br>DATABASE_PASSWORD=(enter your database password without parentheses)
 
 <br>####Or use AWS Database below (just uncomment)###
 
 <br>#AWS Database
-#DATABASE_CONNECTION=jdbc:mysql://(Copy AWS endpoint here):(port 4 digit number without parentheses)/(enter you database name without parentheses)
+<br>#DATABASE_CONNECTION=jdbc:mysql://(Copy AWS endpoint here):(port 4 digit number without parentheses)/(enter you database name without parentheses)
 <br>#DATABASE_USERNAME=(enter your database username without parentheses)
 <br>#DATABASE_PASSWORD=(enter your database password without parentheses)
 
