@@ -1,4 +1,4 @@
--- use auction;
+use auction;
 
 DROP TABLE IF EXISTS ConversationCount;
 DROP TABLE IF EXISTS AuctionMessagesConversation;

@@ -1,4 +1,4 @@
--- use auction;
+use auction;
 
 insert into Users(userEmail, password, firstName, lastName, address, city, state, zipCode, phoneNumber, profilePicture)
 values
@@ -36,8 +36,8 @@ carYear, carMake, carModel, carColor, startingBid, carPrice, startDate, expirati
 	('AliceSmith@gmail.com',null, 2022, 'Porsche', 'Taycan', 'Gray', 45632, 82789,'2024-04-4 17:49:52','2024-07-14 17:49:59', 'Save gas with this electric car', 'Images/Porsche.jpeg' ),
 	('EthanWilson@gmail.com', null, 2019, 'Ferrari', '488 Pista', 'Red', 330000, 2750243, '2024-02-4 17:49:52','2024-06-15 17:49:59','Beautiful car; only a few have been made','Images/Ferrari.jpeg'),
 	('FionaAdams@gmail.com',"utl_raw.cast_to_raw ('This is a new blob description')",2022,'Tesla','Model S Plaid','Black',89243,135990,'2024-01-4 17:49:52','2024-06-10 17:49:59','New Car; No Gas; Just electricity', 'Images/TeslaPlaid.jpeg'),
-	("GeorgeLopez@gmail.com","utl_raw.cast_to_raw ('This is a new blob description)",2022, "Bugatti", "Veyron", "Navy Blue",10000, 5700000, "2024-02-02 23:59:59","2024-06-05 23:59:59", "Brand new never driven. Low mileage", 'Images/BugattiVeyron.jpeg'),
-	('HannahTaylor@gmail.com',"utl_raw.cast_to_raw ('This is a new blob description)",2024, "Lamborghini", "Hurrcan", "Orange",25432, 577223, "2024-02-02 23:59:59","2024-06-05 23:59:59", "Most beautiful car made by Lambo. Low mileage. Week end drives only.", 'Images/Lamborghini.jpeg'),
+	("GeorgeLopez@gmail.com","utl_raw.cast_to_raw ('This is a new blob description)",2022, "Bugatti", "Veyron", "Navy Blue",10000, 5700000, "2024-02-02 23:59:59","2024-06-17 23:59:59", "Brand new never driven. Low mileage", 'Images/BugattiVeyron.jpeg'),
+	('HannahTaylor@gmail.com',"utl_raw.cast_to_raw ('This is a new blob description)",2024, "Lamborghini", "Hurrcan", "Orange",25432, 577223, "2024-02-02 23:59:59","2024-06-15 23:59:59", "Most beautiful car made by Lambo. Low mileage. Week end drives only.", 'Images/Lamborghini.jpeg'),
 	('AliceSmith@gmail.com',"utl_raw.cast_to_raw ('This is a new blob description)",2024,'BMW','M3','Green',25322,125967,'2024-02-04 17:49:52','2024-03-19 17:49:59','Brand New. 500 miles. Comes with 100,000 mile warranty', 'Images/BMW-M3.jpeg');
 
 
