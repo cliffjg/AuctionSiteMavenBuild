@@ -1,3 +1,7 @@
+This is the repository prior to converting to a Maven Project:
+https://github.com/cliffjg/AuctionSite
+
+To run this project ->
 Create a "credentials.properties" file and place below into resources folder located in -> "AuctionSiteMavenBuild/src/main/resources"
 
 <br>
